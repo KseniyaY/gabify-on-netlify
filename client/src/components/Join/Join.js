@@ -29,7 +29,7 @@ const Join = () => {
                 </div>
                 <Link onClick={e => (!name || !room) ? e.preventDefault() : null}
                     to={`/chat?name=${name}&room=${room}`}>
-                    <button className="button mt-20" type="submit">Sing-in</button>
+                    <button className="button mt-20" type="submit">Sign-in</button>
                 </Link>
             </div>
         </div>
