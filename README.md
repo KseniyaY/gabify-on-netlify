@@ -10,8 +10,3 @@ This project deployed on Heroku and Netflify as platforms for backend and fronte
 
 ## Setup:
 run ``` npm i && npm start``` for both client and server side to start the development server.
-
-![chat_example_1](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_1.png)
-![chat_example_2](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_2.png)
-![chat_example_3](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_3.png)
-![chat_example_4](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_4.png)
