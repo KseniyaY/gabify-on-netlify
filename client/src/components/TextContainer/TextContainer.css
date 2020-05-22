@@ -1,0 +1,34 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.active-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.active-item {
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.active-container img {
+  padding-left: 10px;
+}
+
+.text-container h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .text-container {
+    display: none;
+  }
+}
