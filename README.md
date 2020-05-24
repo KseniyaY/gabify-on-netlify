@@ -19,7 +19,7 @@ run `npm i && npm start` for both client and server side to start the developmen
 ### Backend
 
 Before pushing the server side code to Heroku, login first:
-`heroku login`
+```heroku login```
 Then being inside the "server" folder initialize a remote git connected to heroku:
 `$ cd server`
 `$ git init`
@@ -32,32 +32,33 @@ If there is existing repository, use Git to clone react-nodejs-chat-app2020's so
 
 Deploy your changes
 Commit all changes and push/deploy them to Heroku using Git:
-`$ git add .`
-`$ git commit -am "make it better"`
-`$ git push heroku master`
+```$ git add .```
+```$ git commit -am "make it better"```
+```$ git push heroku master```
 
 ### Frontend
 
 Switch to the "client" folder.
 If you don't want to generate source maps for your code, add a file ".env" to the root of the client folder and paste there a configuration string:
-`GENERATE_SOURCEMAP=false`
+```GENERATE_SOURCEMAP=false```
 Create your build.
-`npm run build`
+```npm run build```
 Then login on netlify.com and navigate to the page designed for a list of sites.
 In order to prepare the client side of your current app for deployment on Netflify without using Git, just drag and drop your entire client folder there.
 Then install netlify cli globally and login via your terminal.
-`install netlify-cli -g`
-`netlify login`
+```install netlify-cli -g```
+```netlify login```
 
 Now you are good to go with the deployment via the terminal:
-`netlify deploy`
+```netlify deploy```
 Fot the very first deployment agree that you are going to create a new site and choose on which team. you may skip the name of the site for now.
 When it requires info about the publish directory, type in a relative path to the build folder:
-`./build`
+```./build```
 First you'll get a draft Netlify url and as soon as you are satisfied with the results of this test deployment, you can deploy your prod version.
-`netlify deploy --prod`
+```netlify deploy --prod```
 
-![chat_example_1](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_1.png)
-![chat_example_2](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_2.png)
-![chat_example_3](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_3.png)
-![chat_example_4](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_window_4.png)
+![Chat "Join" page](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_1.png)
+![Chat modal (1st user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_2.png)
+![Chat modal (3rd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_3.png)
+![chat_modal_(2nd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_4.png)
+![chat_modal_(3nd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_5.png)
