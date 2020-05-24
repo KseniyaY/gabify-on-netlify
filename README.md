@@ -57,8 +57,23 @@ When it requires info about the publish directory, type in a relative path to th
 First you'll get a draft Netlify url and as soon as you are satisfied with the results of this test deployment, you can deploy your prod version.
 ```netlify deploy --prod```
 
+
+Chat "Join" page:
+
 ![Chat "Join" page](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_1.png)
+
+Chat modal window (1st user):
+
 ![Chat modal (1st user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_2.png)
+
+Chat modal window (3rd user):
+
 ![Chat modal (3rd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_3.png)
+
+Chat modal window (2nd user):
+
 ![chat_modal_(2nd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_4.png)
-![chat_modal_(3nd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_5.png)
+
+Chat modal window (3rd user):
+
+![chat_modal_(3rd user)](https://github.com/KseniyaY/gabify-on-netlify/blob/master/client/public/chat_modal_5.png)
